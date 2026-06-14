@@ -344,16 +344,13 @@ body {
   transform: scale(1.05);
 }
 
-.about-106 {
-  grid-column: span 2;
-}
-
-.about-107 {
-  height: 170px;
-}
-
+.about-106,
+.about-107,
 .about-108 {
-  height: 170px;
+  width: 350px;
+  aspect-ratio: 9/10;
+  object-fit: cover;
+  border-radius: 16px;
 }
 
 /* Responsive */

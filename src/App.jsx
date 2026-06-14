@@ -483,7 +483,7 @@ function App() {
   <div className="about-102">
     <div className="about-103">
       <h2>About Moon Home Appliances</h2>
-      </section>
+  
 
       <p>
         Welcome to Moon Home Appliances, your trusted destination for
@@ -501,13 +501,9 @@ function App() {
         Explore Products
       </button>
     </div>
+    </div>
+    </section>
 
-</section>
-</div>
-  )
-  return (
-    <div>
-  )  
 
 <section className="filters">
         <input type="text"
@@ -527,6 +523,7 @@ function App() {
           <option value="Personal Care Appliances">Personal Care Appliances</option>
           <option value="Smart Home Devices">Smart Home Devices</option>
         </select>
+        </section>
 
       <main className="main-container">
         <section className="products">
@@ -562,13 +559,12 @@ function App() {
                 <button className="remove-btn" onClick={() => removeItem(item.id)}>
                   Remove
                 </button>
-              </div>
+                </div>
             ))
           )}
 
           <h3>Total: ₹{totalAmount}</h3>
         </aside>
-        </div>
         </main>
   
     <div className="about-105">
@@ -576,14 +572,12 @@ function App() {
       <img src={maha} alt="maha" className="about-107" />
       <img src={keerthi} alt="keerthi" className="about-108" />
     </div>
-  </div>
-      </main>
       <footer className="footer">
   <p>© 2026 Moon Home Appliances | Created by Sathya, Maha Lakshmi and Keerthika</p>
-</footer>
-      
+</footer>  
     </div>
   );
 }
+
 
 export default App;
