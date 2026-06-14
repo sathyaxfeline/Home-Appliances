@@ -22,6 +22,36 @@ import product20 from "./assets/product20.jpg";
 import product21 from "./assets/product21.jpg";
 import product22 from "./assets/product22.webp";
 import product23 from "./assets/product23.jpg";
+import product24 from "./assets/product24.png";
+import product25 from "./assets/product25.webp";
+import product26 from "./assets/product26.jpeg";
+import product27 from "./assets/product27.jpeg";
+import product28 from "./assets/product28.jpeg";
+import product29 from "./assets/product29.jpeg";
+import product30 from "./assets/product30.jpeg";
+import product31 from "./assets/product31.jpeg";
+import product32 from "./assets/product32.jpeg";
+import product33 from "./assets/product33.jpeg";
+import product34 from "./assets/product34.jpeg";
+import product35 from "./assets/product35.jpeg";
+import product36 from "./assets/product36.jpeg";
+import product37 from "./assets/product37.jpeg";
+import product38 from "./assets/product38.jpeg";
+import product39 from "./assets/product39.jpeg";
+import product40 from "./assets/product40.jpeg";
+import product41 from "./assets/product41.jpeg";
+import product42 from "./assets/product42.jpeg";
+import product43 from "./assets/product43.jpeg";
+import product44 from "./assets/product44.jpeg";
+import product45 from "./assets/product45.jpeg";
+import product46 from "./assets/product46.jpeg";
+import product47 from "./assets/product47.jpeg";
+import product48 from "./assets/product48.jpeg";
+import product49 from "./assets/product49.jpeg";
+import product50 from "./assets/product50.jpeg";
+import sathya from "./assets/sathya.jpeg";
+import maha from "./assets/maha.jpeg";
+import keerthi from "./assets/keerthi.jpeg";
 
 function App() {
   // Products are added directly in code. No Add Product form/card is shown.
@@ -29,7 +59,7 @@ function App() {
     {
       id: 1,
       name: "Air Conditioner",
-      price: 3499,
+      price: 34999,
       category: "Cooling Appliances",
       image : product1
     },
@@ -44,14 +74,14 @@ function App() {
       id: 3,
       name: "Water Purifier",
       price: 12999,
-      category: "kitchen Appliances",
+      category: "Kitchen Appliances",
       image: product3
     },
     {
       id: 4,
       name: "Smart TV",
       price: 45999,
-      category: "Entertaintment Appliances",
+      category: "Entertainment Appliances",
       image: product4
     },
     {
@@ -105,7 +135,7 @@ function App() {
     },
     {
       id: 12,
-      name: "WAshing Machine",
+      name: "Washing Machine",
       price: 24999,
       category: "Cleaning Appliances",
       image: product12
@@ -187,6 +217,195 @@ function App() {
       category: "Kitchen Appliances",
       image: product23
     },
+    {
+      id: 24,
+      name: "Emergency Light",
+      price: 999,
+      category: "Home Essentials",
+      image: product24
+    },
+    {
+      id: 25,
+      name: "Air Fryer",
+      price: 5999,
+      category: "Kitchen Appliances",
+      image: product25
+    },
+    {
+  id: 26,
+  name: "Food Processor",
+  price: 5499,
+  category: "Kitchen Appliances",
+  image: product26
+},
+{
+  id: 27,
+  name: "Electric Grill",
+  price: 3999,
+  category: "Kitchen Appliances",
+  image: product27
+},
+{
+  id: 28,
+  name: "Trimmer",
+  price: 1499,
+  category: "Personal Care Appliances",
+  image: product28
+},
+{
+  id: 29,
+  name: "Clothes Dryer",
+  price: 18999,
+  category: "Cleaning Appliances",
+  image: product29
+},
+{
+  id: 30,
+  name: "Juicer",
+  price: 2499,
+  category: "Kitchen Appliances",
+  image: product30
+},
+{
+  id: 31,
+  name: "Gas Stove",
+  price: 5999,
+  category: "Kitchen Appliances",
+  image: product31
+},
+{
+  id: 32,
+  name: "Hair Dryer",
+  price: 1299,
+  category: "Personal Care Appliances",
+  image: product32
+},
+{
+  id: 33,
+  name: "Egg Boiler",
+  price: 999,
+  category: "Kitchen Appliances",
+  image: product33
+},
+{
+  id: 34,
+  name: "Humidifier",
+  price: 2999,
+  category: "Home Essentials",
+  image: product34
+},
+{
+  id: 35,
+  name: "Sandwich Maker",
+  price: 1499,
+  category: "Kitchen Appliances",
+  image: product35
+},
+{
+  id: 36,
+  name: "Popcorn Maker",
+  price: 1799,
+  category: "Kitchen Appliances",
+  image: product36
+},
+{
+  id: 37,
+  name: "Sewing Machine",
+  price: 8999,
+  category: "Home Essentials",
+  image: product37
+},
+{
+  id: 38,
+  name: "Hand Blender",
+  price: 1199,
+  category: "Kitchen Appliances",
+  image: product38
+},
+{
+  id: 39,
+  name: "Inverter",
+  price: 15999,
+  category: "Home Essentials",
+  image: product39
+},
+{
+  id: 40,
+  name: "Pressure Cooker",
+  price: 2499,
+  category: "Kitchen Appliances",
+  image: product40
+},
+{
+  id: 41,
+  name: "Table Fan",
+  price: 1999,
+  category: "Cooling Appliances",
+  image: product41
+},
+{
+  id: 42,
+  name: "Exhaust Fan",
+  price: 1499,
+  category: "Cooling Appliances",
+  image: product42
+},
+{
+  id: 43,
+  name: "Wet and Dry Vacuum Cleaner",
+  price: 6999,
+  category: "Cleaning Appliances",
+  image: product43
+},
+{
+  id: 44,
+  name: "Steam Iron",
+  price: 2499,
+  category: "Home Essentials",
+  image: product44
+},
+{
+  id: 45,
+  name: "OTG Oven",
+  price: 6999,
+  category: "Kitchen Appliances",
+  image: product45
+},
+{
+  id: 46,
+  name: "Water Dispenser",
+  price: 7999,
+  category: "Home Essentials",
+  image: product46
+},
+{
+  id: 47,
+  name: "Roti Maker",
+  price: 2999,
+  category: "Kitchen Appliances",
+  image: product47
+},
+{
+  id: 48,
+  name: "Mosquito Killer Lamp",
+  price: 1499,
+  category: "Home Essentials",
+  image: product48
+},
+{
+  id: 49,
+  name: "Tower Fan",
+  price: 4999,
+  category: "Cooling Appliances",
+  image: product49
+},
+{
+  id: 50,
+  name: "Robot Vacuum Cleaner",
+  price: 14999,
+  category: "Cleaning Appliances",
+  image: product50
+}
 
 ]);
 
@@ -251,14 +470,40 @@ function App() {
         </a>
       </nav>
 
-      <section className="Moon">
-        <h2>Home Appliances</h2>
-        <p>Discover premium home appliances for comfort, convenience,
-          and modern living.
-        </p>
-      </section>
+      <section className="hero">
+  <h2>Home Appliances</h2>
+  <p>
+    Discover premium home appliances for comfort, convenience,
+    and modern living.
+  </p>
+</section>
 
-      <section className="filters">
+{/* About Section */}
+<section className="about-101">
+  <div className="about-102">
+    <div className="about-103">
+      <h2>About Moon Home Appliances</h2>
+
+      <p>
+        Welcome to Moon Home Appliances, your trusted destination for
+        high-quality home appliances designed to make everyday life
+        easier, smarter, and more comfortable.
+      </p>
+
+      <p>
+        Explore our wide range of products including kitchen appliances,
+        cooling appliances, cleaning appliances, heating appliances,
+        smart home devices, and home essentials.
+      </p>
+
+      <button className="about-104">
+        Explore Products
+      </button>
+    </div>
+
+</section>
+
+<section className="filters">
         <input
           type="text"
           placeholder="Search product..."
@@ -274,6 +519,8 @@ function App() {
           <option value="Entertainment Appliances">Entertainment Appliances</option>
           <option value="Heating Appliances">Heating Appliances</option>
           <option value="Home Essentials">Home Essentials</option>
+          <option value="Personal Care Appliances">Personal Care Appliances</option>
+          <option value="Smart Home Devices">Smart Home Devices</option>
         </select>
       </section>
 
@@ -317,7 +564,14 @@ function App() {
 
           <h3>Total: ₹{totalAmount}</h3>
         </aside>
-        
+        </div>
+
+    <div className="about-105">
+      <img src={sathya} alt="sathya" className="about-106" />
+      <img src={maha} alt="maha" className="about-107" />
+      <img src={keerthi} alt="keerthi" className="about-108" />
+    </div>
+  </div>
       </main>
       <footer className="footer">
   <p>© 2026 Moon Home Appliances | Created by Sathya, Maha Lakshmi and Keerthika</p>
