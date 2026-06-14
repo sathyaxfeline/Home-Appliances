@@ -476,13 +476,14 @@ function App() {
     Discover premium home appliances for comfort, convenience,
     and modern living.
   </p>
-</section>
+</section> 
 
 {/* About Section */}
 <section className="about-101">
   <div className="about-102">
     <div className="about-103">
       <h2>About Moon Home Appliances</h2>
+      </section>
 
       <p>
         Welcome to Moon Home Appliances, your trusted destination for
@@ -502,10 +503,14 @@ function App() {
     </div>
 
 </section>
+</div>
+  )
+  return (
+    <div>
+  )  
 
 <section className="filters">
-        <input
-          type="text"
+        <input type="text"
           placeholder="Search product..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
@@ -522,7 +527,6 @@ function App() {
           <option value="Personal Care Appliances">Personal Care Appliances</option>
           <option value="Smart Home Devices">Smart Home Devices</option>
         </select>
-      </section>
 
       <main className="main-container">
         <section className="products">
@@ -565,7 +569,8 @@ function App() {
           <h3>Total: ₹{totalAmount}</h3>
         </aside>
         </div>
-
+        </main>
+  
     <div className="about-105">
       <img src={sathya} alt="sathya" className="about-106" />
       <img src={maha} alt="maha" className="about-107" />
