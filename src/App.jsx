@@ -483,24 +483,26 @@ function App() {
   <div className="about-102">
     <div className="about-103">
       <h2>About Moon Home Appliances</h2>
-  
-
       <p>
         Welcome to Moon Home Appliances, your trusted destination for
         high-quality home appliances designed to make everyday life
         easier, smarter, and more comfortable.
       </p>
-
       <p>
         Explore our wide range of products including kitchen appliances,
         cooling appliances, cleaning appliances, heating appliances,
         smart home devices, and home essentials.
       </p>
 
-      <button className="about-104">
-        Explore Products
-      </button>
+      <button className="about-104">Explore Products</button>
+      </div>
+
+      <div className="about-105">
+      <img src={sathya} alt="sathya" className="about-106" />
+      <img src={maha} alt="maha" className="about-107" />
+      <img src={keerthi} alt="keerthi" className="about-108" />
     </div>
+
     </div>
     </section>
 
@@ -566,12 +568,7 @@ function App() {
           <h3>Total: ₹{totalAmount}</h3>
         </aside>
         </main>
-  
-    <div className="about-105">
-      <img src={sathya} alt="sathya" className="about-106" />
-      <img src={maha} alt="maha" className="about-107" />
-      <img src={keerthi} alt="keerthi" className="about-108" />
-    </div>
+        
       <footer className="footer">
   <p>© 2026 Moon Home Appliances | Created by Sathya, Maha Lakshmi and Keerthika</p>
 </footer>  
