@@ -464,7 +464,7 @@ function App() {
   return (
     <div>
       <nav className="navbar">
-        <h1>Moon Home Appliances</h1>
+        <h1>SKM Shop</h1>
         <a href="#cart-section" className="cart-btn">
           Cart: {cart.length}
         </a>
@@ -476,35 +476,7 @@ function App() {
     Discover premium home appliances for comfort, convenience,
     and modern living.
   </p>
-</section> 
-
-{/* About Section */}
-<section className="about-101">
-  <div className="about-102">
-    <div className="about-103">
-      <h2>About Moon Home Appliances</h2>
-      <p>
-        Welcome to Moon Home Appliances, your trusted destination for
-        high-quality home appliances designed to make everyday life
-        easier, smarter, and more comfortable.
-      </p>
-      <p>
-        Explore our wide range of products including kitchen appliances,
-        cooling appliances, cleaning appliances, heating appliances,
-        smart home devices, and home essentials.
-      </p>
-
-      <button className="about-104">Explore Products</button>
-      </div>
-
-      <div className="about-105">
-      <img src={sathya} alt="sathya" className="about-106" />
-      <img src={maha} alt="maha" className="about-107" />
-      <img src={keerthi} alt="keerthi" className="about-108" />
-    </div>
-
-    </div>
-    </section>
+</section>
 
 
 <section className="filters">
@@ -567,14 +539,42 @@ function App() {
 
           <h3>Total: ₹{totalAmount}</h3>
         </aside>
-        </main>
+        </main><section className="about-101">
+          <div className="about-102">
+            <div className="about-103">
+              <h2>About Our Home Appliances Website</h2>
+              <p>
+                Welcome to our Home appliances website. We provide a wide range of
+                high-quality home appliances to make our daily life easier and more
+                comfortable. Our platform offers trusted products, affordable prices,
+                and a smooth shopping eperience.
+              </p>
+
+              <p>
+                Explore the latest kitchen appliances, refrigerators,
+                washing machines,
+                air conditioners,
+                televisions, microwaves, mixers, and other essential home appliances.
+                We are commited to delivering reliable products,
+                excellent customer service and the best value for every home.
+              </p>
+
+              <button className="about-104">Explore Collection</button>
+            </div>
+
+        <div className="about-105">
+      <img src={sathya} alt="sathya" className="about-106" ></img>
+      <img src={maha} alt="maha" className="about-107" ></img>
+      <img src={keerthi} alt="keerthi" className="about-108" ></img>
+    </div>
+    </div>
+    </section>
         
       <footer className="footer">
-  <p>© 2026 Moon Home Appliances | Created by Sathya, Maha Lakshmi and Keerthika</p>
+  <p>© 2026 SKM Shop | Created by Sathya, Maha Lakshmi, Keerthika</p>
 </footer>  
     </div>
   );
 }
-
 
 export default App;
