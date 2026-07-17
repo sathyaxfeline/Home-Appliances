@@ -49,7 +49,7 @@ import product47 from "./assets/product47.jpeg";
 import product48 from "./assets/product48.jpeg";
 import product49 from "./assets/product49.jpeg";
 import product50 from "./assets/product50.jpeg";
-import sathya from "./assets/sathya.jpeg";
+import sathya from "./assets/sathya.jpg";
 import maha from "./assets/maha.jpeg";
 import keerthi from "./assets/keerthi.jpeg";
 
